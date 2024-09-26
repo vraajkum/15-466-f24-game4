@@ -1,12 +1,12 @@
-# (TODO: your game's title)
+# Mysterious Game
 
-Author: (TODO: your name)
+Author: Vishant Raajkumar
 
-Design: (TODO: In two sentences or fewer, describe what is new and interesting about your game.)
+Design: A mysterious detective game that's so mysterious, it doesn't even work. It prints out some text, leaving you to decipher the clue.
 
-Text Drawing: (TODO: how does the text drawing in this game work? Is text precomputed? Rendered at runtime? What files or utilities are involved?)
+Text Drawing: The text drawing does not work. Currently, I have some code in [file](text_process.cpp) that's taken from a Harfbuzz tutorial and all it does is process some fixed text, but it does not draw it.
 
-Choices: (TODO: how does the game store choices and narrative? How are they authored? Anything nifty you want to point out?)
+Choices: It does not store any choices or narrative. There is currently a single string in [file](text_process.cpp) that doesn't have any story for the game but it does have the story of my life.
 
 Screen Shot:
 
@@ -14,9 +14,9 @@ Screen Shot:
 
 How To Play:
 
-(TODO: describe the controls and (if needed) goals/strategy.)
+Read the printed text and try to make sense of it all.
 
-Sources: (TODO: list a source URL for any assets you did not create yourself. Make sure you have a license for the asset.)
+Sources: [link](https://fonts.google.com/specimen/Open+Sans)
 
 This game was built with [NEST](NEST.md).
 
